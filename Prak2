@@ -10,11 +10,10 @@ rel="stylesheet"
     <title>Pertemuan 1</title>
 </head>
 <body>
-    <h1 id="top"> Halo</h1>
+    <h1 id="top"> Halo Annyeong</h1>
     <h2>Hello World</h2>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. us magna.  Integer id quam. Morbi mi.
-</p>
+    <p>Dibawah ini adalah beberapa contoh dari Bahasa Pemrograman:
 <ol>
     <li>HTML</li>
     <li>CSS</li>
@@ -69,7 +68,7 @@ rel="stylesheet"
     <button type="submit">Submit</button>
 
 </form>
-    <a href="https://www.google.com/" target="_blank">klik linknya disini cuy</a>
+    <a href="https://www.google.com/" target="_blank">klik link Googlenya disini cuy</a>
     <br>
     <a href="#top">kembali ke atas</a>
 </body>
