@@ -1,33 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="" rel="stylesheet">
+    <link
+href=""
+rel="stylesheet"
+/>
     <title>Pertemuan 1</title>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
-    <h2>HELLO WORLD</h2>
+    <h1 id="top"> Halo</h1>
+    <h2>Hello World</h2>
     <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. us magna.  Integer id quam. Morbi mi.
+</p>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Facere perspiciatis laboriosam dolor commodi autem vero voluptas.
-    </p>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
 
-    <ol>
-        <li>Aji</li>
-        <li>Alip</li>
-        <li>Nadip</li>
-    </ol>
+    <br>
+    <img src="Gue.jpg.jpg" alt="desc gambar" height="300px">
+<br>
+    <table border="2">
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>NPM</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Salsa</td>
+            <td>SI</td>
+            <td>2417052015</td>
+        </tr>
+        <tr>
+          <td colspan="3">Mingyu</td>
+          <td rowspan="2">2117052022</td>
+        </tr>
+        <tr>
+            <td>3</td>
+        </tr>
+    </table>
+<br>
 
-    <ul>
-        <li>Valdo</li>
-        <li>Mingyu sayangku cintaku</li>
-        <li>Salsa</li>
-    </ul>
+<form action="#">
+    <label for="nama">Name</label>
+    <input type="text" placeholder="nama lengkap">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="password">
+    <br>
+    <label for="number">Number</label>
+    <input type="number" placeholder="number">
+    <br>
+    <label for="date">Date</label>
+    <input type="date" placeholder="date">
 
-    <img src="Gue.jpg.jpg" alt="Deskripsi Gambar">
+    <button type="submit">Submit</button>
+
+</form>
+    <a href="https://www.google.com/" target="_blank">klik linknya disini cuy</a>
+    <br>
+    <a href="#top">kembali ke atas</a>
 </body>
 </html>
