@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="New.css">
+</head>
+<body>
+ 
+      
+      
+      
+
+
+        <form action="#" method="post" target="_blank">
+            <h1>Form Kehadiran Mahasiswa</h1>
+            <label for="name">Nama: </label>
+            <input type="Text" placeholder="Masukkan Nama"><br>
+            <label for="NPM">NPM: </label>
+            <input type="Number" placeholder="Masukkan NPM"><br>
+            <label for="Kelas">Kelas: </label>
+            <select name="kelas" id="kelas">
+                
+                <option value="Pilih Kelas">Pilih Kelas</option>
+                <option value="Siste Informasi">Sistem Infromasi</option>
+                <option value="Ilmu Komputer">Ilmu Komputer</option>
+                
+            </select><br>
+
+            <label for="Tanggal">Tanggal: </label>
+            <input type="date"><br>
+            <label for="Waktu">Waktu: </label>
+        <input type="time"><br>
+            
+           
+            <input type="submit" value="Submit">
+            <form>
+                
+              
+
+</body>
+</html>
