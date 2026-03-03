@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #b25fae;
+  
+}
+
+form{
+    background-color: rgb(190, 158, 228);
+    padding: 100px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+input, select{
+    border: none;
+    border-bottom: 3px solid rgb(226, 57, 57);
+    background-color: aqua;
+    width: 100%;
+    padding: 1em;
+}
+
+input[type="submit"]{
+    margin: 14px 0;
+    background-color: blueviolet;
+    color: white;
+    border:none;
+    width: fit-content;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
