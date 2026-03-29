@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCT 127 Profile</title>
+    <link href="NCT.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="https://i.pinimg.com/1200x/3f/6e/17/3f6e1765fb6d15e7b9b2e5325455ae73.jpg" alt="NCT 127" class="profile-img">
+                <h1>NCT 127</h1>
+                <p class="bio">💙Neo Culture Technology💙</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.youtube.com/@NCT127" class="btn btn-youtube" target="_blank">
+                    <i class="fab fa-youtube"></i> YouTube NCT 127
+                </a>
+                <a href="https://www.instagram.com/nct127" class="btn btn-instagram" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram NCT 127
+                </a>
+                <a href="https://open.spotify.com/artist/7f4ignuCJhLXfZ9giKT7rH" class="btn btn-spotify" target="_blank">
+                    <i class="fab fa-spotify"></i> Spotify NCT 127
+                </a>
+                <a href="https://x.com/NCTsmtown_127" class="btn btn-twitter" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter NCT 127
+                </a>
+            </div>
+
+            <div class="video-section">
+                <h3 class="video-title">🎬 NCT 127 - MV Kick It</h3>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/2OvyA2__Eas" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="member-section">
+                <h3 class="section-title">👥 Members</h3>
+                <div class="members-grid">
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/ba/3d/b4/ba3db450311c835211d294eeda856130.jpg" alt="Taeyong">
+                        <p>Taeyong</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/37/19/1d/37191d33d73125abd297c5b06acadb04.jpg" alt="Jaehyun">
+                        <p>Jaehyun</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/50/65/cc/5065cccb22eb8f8d3679152758b2c820.jpg" alt="Mark">
+                        <p>Mark</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/e4/d2/4b/e4d24b38df4af584a95ee3caf8207859.jpg" alt="Haechan">
+                        <p>Haechan</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/13/33/1b/13331bd90ee22d541eb2b5d0cef2ee96.jpg" alt="Taeil">
+                        <p>Taeil</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/38/5f/21/385f2138177f4e3c1fdd0b50830032a7.jpg" alt="Johnny">
+                        <p>Johnny</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/736x/51/71/b3/5171b3fe1613ceb6823668fb16920363.jpg" alt="Yuta">
+                        <p>Yuta</p>
+                    </div>
+                    <div class="member-card">
+                        <img src="https://i.pinimg.com/1200x/48/94/db/4894db4875026d87916a40cb11c7c213.jpg" alt="Doyoung">
+                        <p>Doyoung</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p class="footer-small">💙Neo Culture Technology💙 NCTzen</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
