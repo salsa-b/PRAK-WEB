@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.profile-card {
+    background-color: #1b263b;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.profile-header h1 {
+    color: #3498db;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.bio {
+    color: #7fb3d5;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    font-size: 0.95em;
+}
+
+.btn i {
+    font-size: 1.2em;
+}
+
+.btn-youtube {
+    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+}
+
+.btn-youtube:hover {
+    background: linear-gradient(135deg, #cc0000 0%, #990000 100%);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+    transform: translateY(-3px);
+}
+
+.btn-instagram {
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.btn-instagram:hover {
+    background: linear-gradient(135deg, #dc2743 0%, #cc2366 50%, #bc1888 100%);
+    box-shadow: 0 0 15px rgba(220, 39, 67, 0.6);
+    transform: translateY(-3px);
+}
+
+.btn-spotify {
+    background: linear-gradient(135deg, #1db954 0%, #1ed760 100%);
+}
+
+.btn-spotify:hover {
+    background: linear-gradient(135deg, #1ed760 0%, #14843b 100%);
+    box-shadow: 0 0 15px rgba(29, 185, 84, 0.6);
+    transform: translateY(-3px);
+}
+
+.btn-twitter {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+}
+
+.btn-twitter:hover {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px);
+}
+
+.video-section {
+    margin-bottom: 25px;
+}
+
+.video-title {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.video-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #1a1a1a;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.member-section {
+    margin-bottom: 25px;
+}
+
+.section-title {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.member-card {
+    text-align: center;
+    background-color: #152238;
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.6);
+}
+
+.member-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.member-card p {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #2e4053;
+}
+
+.footer-small {
+    color: #7fb3d5;
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+@media (max-width: 480px) {
+    .profile-header h1 {
+        font-size: 1.6em;
+    }
+    
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .video-wrapper iframe {
+        height: 200px;
+    }
+}
